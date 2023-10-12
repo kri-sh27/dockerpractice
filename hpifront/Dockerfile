@@ -17,6 +17,7 @@ FROM nginx:alpine
 COPY  /dist/hpifront /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/nginx.conf
 EXPOSE 4200
+
 # ### STAGE 1: Build ###
 # FROM node:12.7-alpine AS build
 # WORKDIR /usr/src/app
